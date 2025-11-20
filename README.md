@@ -50,4 +50,4 @@ grade_calculator_app/
 
 **Paola Perez**  
 GitHub: https://github.com/Perezscode  
-Portfolio: https://perezcode.netlify.app
+Portfolio: https://perezscode.netlify.app/
