@@ -1,0 +1,10 @@
+# Ignorar archivos y carpetas generados automáticamente
+build/
+dist/
+*.spec
+*.pkg
+*.zip
+*.toc
+*.pyz
+*.DS_Store
+__pycache__/

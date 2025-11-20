@@ -1,21 +1,53 @@
-# Grade Calculator App
+# 📘 Grade Calculator App
 
-Aplicación sencilla para calcular el promedio final de una materia a partir de diferentes componentes (tareas, quizzes, exámenes, proyecto final) usando notas y pesos.
+Aplicación de escritorio desarrollada en Python con Tkinter para calcular el promedio final de un curso usando notas y pesos de diferentes componentes (tareas, quizzes, exámenes y proyecto final).
 
-## Descripción
+Permite ingresar valores, validar las entradas y mostrar automáticamente la calificación final junto con la letra equivalente (A, B, C, D, F).
 
-La aplicación permite ingresar la nota (%) y el peso (%) de cada componente y calcula el promedio final automáticamente.  
-Incluye validación básica para evitar errores en las entradas y muestra el resultado junto con la calificación en letra (A, B, C, D, F).
+---
 
-## Tecnologías
+## 🖥️ Vista previa
 
-- **Python**
-- **Tkinter** (interfaz gráfica)
-- Manejo de errores con `try/except`
-- Lógica de cálculo mediante funciones
+![Screenshot](grade-calc-screenshot.png)
 
-## Cómo ejecutar el proyecto
+---
 
-1. Clona este repositorio o descárgalo como .zip:
-   ```bash
-   git clone https://github.com/TU-USUARIO/grade-calculator-app.git
+## 🚀 Características
+
+- Interfaz gráfica creada con Tkinter  
+- Validación de entradas usando try/except  
+- Cálculo automático de promedio ponderado  
+- Conversión instantánea a calificación en letra  
+- Ejecutable generado mediante PyInstaller  
+- Proyecto organizado y listo para compartir o forkear  
+
+---
+
+## 🧠 Tecnologías utilizadas
+
+- Python 3.13  
+- Tkinter (GUI)  
+- PyInstaller (generación de ejecutable)  
+
+---
+
+## 📂 Estructura del proyecto
+
+```
+grade_calculator_app/
+│── grade_calculator_app.py     ← Script principal
+│── README.md                   ← Documentación
+│── grade-calc-screenshot.png   ← Imagen del proyecto
+│── dist/                       ← Ejecutable generado por PyInstaller
+│── build/                      ← Archivos temporales de PyInstaller
+│── .gitignore                  ← Archivos ignorados
+```
+
+
+---
+
+## 👩🏻‍💻 Autora
+
+**Paola Perez**  
+GitHub: https://github.com/Perezscode  
+Portfolio: https://perezsart.netlify.app
